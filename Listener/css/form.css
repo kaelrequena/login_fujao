@@ -1,0 +1,73 @@
+body{
+    font-family:verdana;
+    font-size:14px;
+    text-align:justify;    
+}
+
+#titulo{
+    position:relative;
+    top:10px;
+    left:100px;
+    width:250px;
+    
+}
+
+h1{
+    text-align:Center;
+}
+
+#formu{
+    position:relative;
+    top:35px;
+    left:980px;
+    width:210px;
+    height:500px;
+}
+
+input{
+    width:250px;
+    height:25px;
+    border:1px solid;
+    border-radius:6px;  
+}
+
+#sexo{
+    width:30px;
+    height:15px;
+}
+
+#sexo1{
+    width:30px;
+    height:15px;
+}
+
+#carrosel{
+    position:absolute;
+    top:190px;
+    left:200px;
+    width:600px;
+    height:300px;
+    border:2px solid;
+
+}
+
+#botao{
+    background-color:#999;
+    border:0.75px solid #FFF;
+    border-radius:8px;
+    width:140px;
+    height:35px;
+    font-size:10pt;
+    font-family:verdana;
+    padding:1px;
+
+    
+}
+#botao:hover{
+    background-color:#00FF00;
+    border:0.85px solid #00FF00;
+    border-radius:15px;   
+    transform:translate(30px, 80%);
+
+}
+

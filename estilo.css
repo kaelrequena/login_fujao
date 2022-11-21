@@ -1,0 +1,18 @@
+body{
+    background-color:#ccc;
+    font-family:Verdana;
+    font-size:14px; 
+    text-justify:inter-word;
+
+}
+
+#btn{
+    
+    border-radius:5px;
+    border:2px solid #111;
+    width:60px;
+    height:20px;
+    padding:2px;
+
+}
+

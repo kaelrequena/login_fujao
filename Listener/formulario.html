@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--área das Metas-->
+    <!--área dos links-->
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!--área dos scripts-->
+    <script type="text/javascript" src="login.js"></script>
+
+</head>
+<body >
+    <div id="titulo"><h1>Login fujão</h1></div>
+    
+    <div id="formu">
+        <form action="" method="POST">
+            <label>Primeiro nome :</label><br/>
+            <input type="text" name="C_nome" maxlength="15" placeholder="Digite aqui..."><br/><br/>
+
+            <label>último Nome:</label><br/>
+            <input type="text" name="C_sobrenome" maxlength="20" placeholder="Digite aqui..."><br/><br/>
+
+            <label>Data de Nascimento:</label><br/>
+            <input type="date" name="C_data"><br/><br/>
+
+            <label>Masculino</label>
+            <input id="sexo" type="radio" value="Masculino" name="C_sexo">
+            <label>Feminino</label>
+            <input id="sexo1" type="radio" value="Feminino" name="C_sexo"><br/><br/>
+            
+            <label>E-mail :</label><br/>
+            <input type="email" name="C_email" maxlength="30" placeholder="jose@gmail.com"><br/><br/>
+
+            <label>Criar Senha:</label><br/>
+            <input type="password" name="C_senha" placeholder="123456!@#$ABC"><br/><br/>
+
+            <label>Confirmação de senha:</label><br/>
+            <input type="password" name="C_confirm"><br/><br/>
+
+            <button  value="submit" name="C_botao" id="botao">Cadastrar-se</button>
+        </form>
+    </div>
+    
+    <div id="carrosel"><img src="id"/></div>
+
+</body>
+</html>
